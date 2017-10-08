@@ -15,11 +15,13 @@ public class Runner {
 				new Book("Product 9", 1999, true),
 				new Book("Product 10", 2549, true)
 				}; 
-				for(int i=0; i<product.length; i++){ 
-				System.out.println(product[i]); 
-				} 
-				System.out.println("Книг с илюстрациями: "+Book.getTotalkolvo()+"; Общая стоимосить: "+Book.getTotalPrice()); 
 
-				} 
+		for (int i = 0; i < product.length; i++) {
+			System.out.println(product[i]);
+		}
+
+		System.out.println(
+				"Books with pics: " + Book.getTotalkolvo() + "; Total price: " + Book.getTotalPrice());
+	}
 
 }
